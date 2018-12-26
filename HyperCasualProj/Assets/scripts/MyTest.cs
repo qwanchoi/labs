@@ -24,6 +24,7 @@ public class MyTest : MonoBehaviour {
             flag = true;
             rigid.isKinematic = false;
             rigid.AddForce(transform.forward*pow, ForceMode.Impulse);
+            //git test
         }
 
     }
